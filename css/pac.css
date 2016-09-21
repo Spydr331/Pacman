@@ -1,0 +1,32 @@
+/* Based on STANLEY */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: #ffffff; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: 14px; color: #555;
+    -webkit-font-smoothing: antialiased; -webkit-overflow-scrolling: touch;
+}
+
+/* Pacman Styles */
+#divboardcontainer{position:relative; width: 560px; height: 630px; margin:0 auto; z-index:1;}
+#canvasboardcontainer{position:relative; width: 560px; height:0; margin:0 auto; z-index:2;}
+#divboardcontainer div{ width:20px; height:20px; position:absolute;}
+#divdebug{ width:20px; height:20px; margin:10px;}
+.blue3{background:url(images/grid.png) no-repeat -40px 0px;}
+.blue4{background:url(images/grid.png) no-repeat -60px 0px;}
+.blue5{background:url(images/grid.png) no-repeat 0px -20px;}
+.blue6{background:url(images/grid.png) no-repeat -20px -20px;}
+.blue7{background:url(images/grid.png) no-repeat -40px -20px;}
+.blue8{background:url(images/grid.png) no-repeat -60px -20px;}
+.blue9{background:url(images/grid.png) no-repeat -20px 0px;}
+
+.blue11{background:url(images/grid.png) no-repeat -20px -60px;}
+.blue12{background:url(images/grid.png) no-repeat 0px -60px;}
+.blue13{background:url(images/grid.png) no-repeat -60px -60px;}
+.blue14{background:url(images/grid.png) no-repeat -40px -60px;}
+.blue15{background:url(images/grid.png) no-repeat 0px -40px;}
+.blue16{background:url(images/grid.png) no-repeat -20px -40px;}
+.blue17{background:url(images/grid.png) no-repeat -40px -40px;}
+.blue18{background:url(images/grid.png) no-repeat -60px -40px;}
+
+.black{background-color:black;}

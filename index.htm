@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="pl">
+	<head>
+		<title>Pacman - Mike Feola.NET</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+
+		<link rel="stylesheet" href="css/bootstrap.min.css" media="all" />
+		<link rel="stylesheet" href="css/style.css" media="all" />
+
+		<!-- End Pattern Lab -->
+
+	</head>
+	<body class="body">
+		<div class="wrapper">
+			<div class="container">
+				<div class="row text-center">
+					<label for="debug">Debug Code</label>
+					<input type="checkbox" id="debug" />
+				</div>
+				<div class="row text-center" id="scoreboard">
+          <div class="col-xs-6 text-left">Score: <span id="scorenumber"></span></div>
+          <div class="col-xs-6 text-right">Lives: <span id="scorelives"></span></div>
+        </div>
+				<div class="row text-center">
+					<div style="position: relative;">
+					 <div id="canvasboardcontainer">
+						 <canvas id="layer3" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+						 <canvas id="layer2" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>
+						 <canvas id="layer1" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+					 </div>
+					 <div id="divboardcontainer"></div>
+					 <textarea id="debug" rows="5" cols="65">
+						 Press F to Scare Ghosts
+						 Press N to Normalize Ghosts
+						 Press C to Start a Chase
+						 Press P to Pause and Unpause
+					 </textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/pacman.js" ></script>
+	</body>
+</html>
